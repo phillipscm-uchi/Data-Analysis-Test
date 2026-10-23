@@ -23,3 +23,7 @@ def truncate(text, length=50, suffix="..."):
 def is_palindrome(text):
     chars = [c.lower() for c in text if c.isalnum()]
     return chars == chars[::-1]
+
+
+def exclaim(text):
+    return text.rstrip() + "!"
