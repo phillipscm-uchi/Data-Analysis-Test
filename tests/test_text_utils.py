@@ -1,4 +1,4 @@
-from textkit import slugify, word_count, truncate, is_palindrome
+from textkit import slugify, word_count, truncate, is_palindrome, exclaim
 
 
 def test_slugify():
@@ -15,3 +15,8 @@ def test_truncate():
 
 def test_palindrome():
     assert is_palindrome("A man, a plan, a canal: Panama")
+
+
+def test_exclaim():
+    assert exclaim("Hello") == "Hello!"
+    assert exclaim("Hello  ") == "Hello!"
