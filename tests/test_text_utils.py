@@ -1,4 +1,4 @@
-from text_utils import slugify, word_count, truncate, is_palindrome
+from textkit import slugify, word_count, truncate, is_palindrome
 
 
 def test_slugify():

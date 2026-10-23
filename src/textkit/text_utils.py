@@ -1,7 +1,7 @@
 """Small text helpers."""
 import re
 import unicodedata
-from helpers import clean_whitespace  # NOTE: works only when run from this folder
+from .helpers import clean_whitespace
 
 
 def slugify(text):
